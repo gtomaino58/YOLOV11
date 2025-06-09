@@ -1,0 +1,75 @@
+Actividad 3
+Fecha de entrega No hay fecha de entrega Puntos 5 Entregando una carga de archivo Tipos de archivo pdf
+Objetivos
+Aprender a manejar videos en el ámbito de Computer Vision.
+Realizar tareas de instance segmentation en videos.
+Analizar la trayectoria de objetos dentro de un video.
+Tareas
+Leer el video proporcionado y transformarlo en tensores.
+Aplicar YOLOv11 preentrenado con los pesos de Ultralytics para detectar vehículos.
+Aplicar YOLOv11 para detectar las trazas de cada vehículo a nivel individual.
+Generar un video nuevo que contenga el video original y superpuestas las bounding boxes generadas por YOLO y las trayectorias de los objetos.
+Entregables
+Un documento PDF con los resultados obtenidos. y las conclusiones. El documento debe identificar todos los pasos realizados. El PDF no se entrega video. Con un par de fotogramas del video es suficiente.
+
+NO SE entrega código.
+
+Datos
+https://campus.europaeducationgroup.es/courses/90222/modules/items/2149701
+
+Rúbrica
+Una rúbrica
+Una rúbrica
+Criterios	Calificaciones	Pts
+Este criterio depende de una competencia de aprendizajeLectura Video
+Se leen los videos en Python y se transforman a Tensores
+1 pts
+Bien
+0 pts
+No entregado/Mal
+1 pts
+Este criterio depende de una competencia de aprendizajeInferencia con YOLO
+Se realiza una inferencia con YOLO con pesos preentrenados para obtener para cada frame las bounding boxes y las trayectorias de los objetos
+1 pts
+Bien
+Se realiza la inferencia y se muestran evidencias suficientes.
+0.5 pts
+Regular
+La inferencia no es completa o contiene fallos menores
+0 pts
+No entregado/Mal
+1 pts
+Este criterio depende de una competencia de aprendizajeDeterminación trayectorias
+Se muestran en el video las trayectorias superpuestas al video original.
+1 pts
+Bien
+Es correcto y claro las trayectorias mostradas
+0.5 pts
+Regular
+Contiene fallos menores o no es totalmente claro
+0 pts
+No entregado/Mal
+1 pts
+Este criterio depende de una competencia de aprendizajeDeterminación bounding-boxes
+Se muestran en el video las bounding boxes superpuestas al video original.
+1 pts
+Bien
+Las bounding boxes son correctas y se muestran con claridad
+0.5 pts
+Regular
+Contiene fallos menores
+0 pts
+No entregado/Mal
+1 pts
+Este criterio depende de una competencia de aprendizajeDocumento
+El lenguaje es apropiado, y el código mostrado es limpio y legible
+1 pts
+Bien
+Es correcto el documento
+0.5 pts
+Regular
+El documento contiene algunos fallos de estructura, o es complicado de entender.
+0 pts
+No entregado/Mal
+1 pts
+Puntos totales: 5
